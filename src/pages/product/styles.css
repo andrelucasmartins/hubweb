@@ -1,0 +1,42 @@
+.back {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  color: #da552f;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 20px;
+}
+
+.back[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.back:hover {
+  opacity: 0.7;
+}
+.product-info {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.product-info h1 {
+  font-size: 32px;
+}
+
+.product-info p {
+  color: #666;
+  line-height: 24px;
+  margin-top: 5px;
+}
+
+.product-info p a {
+  color: #069
+}
